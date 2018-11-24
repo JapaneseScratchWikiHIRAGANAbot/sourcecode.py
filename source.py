@@ -9,3 +9,10 @@ kakasi.setMode("J","H")
 text = (contents)
 conv = kakasi.getConverter()#ひらがな化
 print(conv.do(text))
+title = (conv.do(sandbox))
+contents = text
+summary = "ボットによる作業:ページのひらがな化"
+sandbox.edit(contents, summary)
+page.replace("{{ひらがなヘッダ}}", "{{ひらがなページ|" + title + }})
+
+
