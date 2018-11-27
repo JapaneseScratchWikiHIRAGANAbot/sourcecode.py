@@ -13,6 +13,6 @@ title = (conv.do(sandbox))
 contents = text
 summary = "ボットによる作業:ページのひらがな化"
 sandbox.edit(contents, summary)
-sandbox.replace("{{ひらがなヘッダ}}", "{{ひらがなページ|" + title + }})
+sandbox.replace("{{ひらがなヘッダ}}", "{{ひらがなページ|" + title + "}}")
 
 
